@@ -1,0 +1,23 @@
+[debug] [2019-07-02T08:31:32.107Z] ----------------------------------------------------------------------
+[debug] [2019-07-02T08:31:32.110Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\kk\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js open
+[debug] [2019-07-02T08:31:32.110Z] CLI Version:   7.0.2
+[debug] [2019-07-02T08:31:32.110Z] Platform:      win32
+[debug] [2019-07-02T08:31:32.110Z] Node Version:  v10.16.0
+[debug] [2019-07-02T08:31:32.111Z] Time:          Tue Jul 02 2019 01:31:32 GMT-0700 (Pacific Daylight Time)
+[debug] [2019-07-02T08:31:32.111Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-07-02T08:31:32.125Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-07-02T08:31:32.126Z] > authorizing via signed-in user
+[debug] [2019-07-02T08:31:32.126Z] [iam] checking project pwa-introductory-session for permissions ["firebase.projects.get"]
+[debug] [2019-07-02T08:31:32.129Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/pwa-introductory-session:testIamPermissions  
+
+[debug] [2019-07-02T08:31:33.843Z] <<< HTTP RESPONSE 200
+[debug] [2019-07-02T08:31:33.846Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/pwa-introductory-session  
+ 
+[debug] [2019-07-02T08:31:34.862Z] <<< HTTP RESPONSE 200
+[debug] [2019-07-02T08:34:15.881Z] Error: kill ENOSYS
+    at process.kill (internal/process/per_thread.js:198:13)
+    at process.listener (C:\Users\kk\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\signal-exit\index.js:95:15)
+    at process.emit (events.js:198:13)
+[error] 
+[error] Error: An unexpected error has occurred.
